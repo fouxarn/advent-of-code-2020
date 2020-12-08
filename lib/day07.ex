@@ -1,17 +1,4 @@
 defmodule Day07 do
-  # def parseRule(rule) do
-  #   case rule do
-  #     [number, a, b] ->
-  #       %{(a <> b) => String.to_integer(number)}
-
-  #     [number, a, b | tail] ->
-  #       Map.merge(%{(a <> b) => String.to_integer(number)}, parseRule(tail))
-
-  #     ["no", "other"] ->
-  #       %{}
-  #   end
-  # end
-
   def parseRule(rule) do
     case rule do
       [count, a, b] ->
